@@ -6,7 +6,7 @@ class Customer {
     {
 
     }
-    public function salam(string $name): string {
+    public function salam(string $name='Guest'): string {
 
         return "Salam $name, My name is $this->name";
     }
