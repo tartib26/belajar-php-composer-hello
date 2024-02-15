@@ -1,0 +1,13 @@
+{
+    "name": "wafacode/belajar-php-composer-hello",
+    "description": "Libraby Composer Hello",
+    "type": "library",
+    "require": {
+        "php":">=8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "WafaCode\\Belajar\\":"src/"
+        }
+    }
+}
